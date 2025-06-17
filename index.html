@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Enhancer Pro</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AdsTerra Script -->
+    <script type="text/javascript">
+        atOptions = {
+            'key' : 'YOUR_ADS_TERRA_PUBLISHER_ID',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Ad Banner -->
+        <div class="ad-banner-top">
+            <script type="text/javascript" src="https://www.profitabledisplaynetwork.com/YOUR_SITE_ID/invoke.js"></script>
+        </div>
+        
+        <h1>Image Enhancer Pro</h1>
+        
+        <div class="upload-section">
+            <input type="file" id="fileInput" class="file-input" accept="image/*">
+            <button class="upload-btn" id="uploadBtn">Upload Image</button>
+            <p id="fileInfo">No file selected</p>
+        </div>
+
+        <div class="loading-container" id="loadingIndicator">
+            <div class="loading"></div>
+            <span>Enhancing image...</span>
+        </div>
+
+        <div class="status-message" id="statusMessage"></div>
+
+        <div class="image-comparison">
+            <div class="image-container">
+                <span class="image-label">Original Image</span>
+                <div class="image-placeholder" id="originalImageContainer">
+                    <span>Upload an image to see it here</span>
+                </div>
+            </div>
+            
+            <div class="image-container">
+                <span class="image-label">Enhanced Image</span>
+                <div class="image-placeholder" id="enhancedImageContainer">
+                    <span>Enhanced image will appear here</span>
+                </div>
+                <button class="download-btn" id="downloadBtn">Download Enhanced Image</button>
+            </div>
+        </div>
+
+        <!-- Bottom Ad Banner -->
+        <div class="ad-banner-bottom">
+            <script type="text/javascript" src="https://www.profitabledisplaynetwork.com/YOUR_SITE_ID/invoke.js"></script>
+        </div>
+    </div>
+
+    <!-- Telegram Floating Button -->
+    <div class="telegram-btn-container">
+        <a href="https://t.me/YourChannelName" class="telegram-btn" target="_blank">
+            <i class="fab fa-telegram"></i> Join Telegram
+        </a>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
